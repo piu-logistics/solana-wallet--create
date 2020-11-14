@@ -2,8 +2,7 @@
 
 ####  solana-wallet--create
 
-This is project to create solana wallet. Build on nodejs and ejs template. 
-
+This is project help user create a solana wallet. Build on nodejs and ejs template.
 
 ### How to run:
 
