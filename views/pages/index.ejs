@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('../partials/head'); %>
+</head>
+<body class="container">
+
+    <header>
+        <%- include('../partials/header'); %>
+    </header>
+
+    <main>
+
+ <form name="" method="POST" action="/account/create">
+    <table>
+<!--         <tr>
+        <td><input type="text" name="createwallet" ></td>
+        </tr> -->
+      
+        <tr>
+        <td colspan="2"><input type="submit" value="Create Solala wallet" ></td>
+        </tr>
+    </table>
+
+    <p>
+
+
+    </form>
+<% if (locals.pubkey) { %>
+
+  <div class="jumbotron">
+            <h1>You account is create Successful: </h1>
+            <p>Pubkey: <%= pubkey %></p>
+            <p>Save this seed phrase: <%= seedphrase %></p>
+            <ul>
+
+        </div>
+
+<% } %>
+       
+    </main>
+
+    <footer>
+        <%- include('../partials/footer'); %>
+    </footer>
+
+</body>
+</html>
