@@ -17,4 +17,6 @@ This is project to create solana wallet. Build on nodejs and ejs template.
   <img src="https://raw.githubusercontent.com/hoangdaothienmenh/solana-wallet--create/main/server.jpng.JPG"></img>
 
 #### To do list:
-  Make project run on Heruku
+  Make project run on heroku
+  Add airdrop function
+  Add select cluter server
