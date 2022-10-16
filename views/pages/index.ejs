@@ -18,7 +18,7 @@
         </tr> -->
       
         <tr>
-        <td colspan="2"><input type="submit" value="Create Solala wallet" ></td>
+        <td colspan="2"><input type="submit" value="Create a Solana Wallet" ></td>
         </tr>
     </table>
 
@@ -29,12 +29,17 @@
 <% if (locals.pubkey) { %>
 
   <div class="jumbotron">
-            <h1>You account is create Successful: </h1>
-            <p>Pubkey: <%= pubkey %></p>
-            <p>Save this seed phrase: <%= seedphrase %></p>
-            <ul>
+    <h1>Your new Solana wallet is here: </h1>
+    <p> <br> </p>
+    <h3>PubKey: </h3>
+    <p><%= pubkey %></p>
+    <p> <br> </p>
+    <h3>Save this Seed Phrase (12 words) in a very secure place, without it you will lose access to your new cryptoassets wallet: </h3>
+    <p><%= seedphrase %></p>
+    <p> <br> </p>
+    <ul>
 
-        </div>
+</div>
 
 <% } %>
        

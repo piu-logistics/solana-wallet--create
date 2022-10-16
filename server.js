@@ -20,11 +20,11 @@ function execute(command, callback){
 // index page 
 app.get('/', function(req, res) {
     var mascots = [
-        { name: 'Sammy', organization: "DigitalOcean", birth_year: 2012},
-        { name: 'Tux', organization: "Linux", birth_year: 1996},
-        { name: 'Moby Dock', organization: "Docker", birth_year: 2013}
+        { name: 'Peace', organization: "EcoSysMAAT-KaZimba", birth_year: 1996},
+        { name: 'Power', organization: "EcoSysMAAT-SOUL", birth_year: 2001},
+        { name: 'Wisdom', organization: "EcoSysMAAT-ACUK", birth_year: 2012}
     ];
-    var tagline = "No programming concept is complete without a cute animal mascot.";
+    var tagline = "Education for True Global Power";
 
     res.render('pages/index', {
         mascots: mascots,
